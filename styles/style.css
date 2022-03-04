@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -32,8 +32,7 @@
 .nav__links {
   list-style: none;
   padding-left: 0;
-  margin-top: 8px;
-  display: flex;
+  display: flex;  
   align-items: center;
   column-gap: 20px;
 }
@@ -54,6 +53,8 @@
   font-weight: 500;
   margin: 150px 0 0;
   max-width: 544px;
+  position: relative;
+  z-index: 2;
 }
 
 .header__description {
@@ -61,6 +62,8 @@
   line-height: 30px;
   margin: 32px 0 0;
   max-width: 465px;
+  position: relative;
+  z-index: 3;
 }
 
 .header__image {
@@ -392,6 +395,10 @@
   z-index: 1;
   position: relative;
   left: 120px;
+}
+
+.about__paragraph:last-of-type {
+  padding-bottom: 0;
 }
 
 .about__circle {
