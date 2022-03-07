@@ -44,7 +44,7 @@
 }
 
 .nav__link:hover {
-  color:#1f69c9;
+  color: #1f69c9;
 }
 
 .header__title {
@@ -72,7 +72,7 @@
   position: absolute;
   top: 135px;
   right: 20px;
-  }
+}
 
 .header__footer {
   position: absolute;
@@ -92,7 +92,7 @@
 }
 
 .header__link:hover {
-  color:#1f69c9;
+  color: #1f69c9;
 }
 
 .header__address {
@@ -131,7 +131,6 @@
   list-style-type: none;
   padding-top: 68px;
 }
-
 
 .card {
   background-color: #fff;
@@ -243,7 +242,7 @@
 }
 
 .events__more:hover {
-  color:#1f69c9;
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -369,7 +368,6 @@
   position: relative;
   box-sizing: border-box;
   display: flex;
-  
 }
 
 .about__title {
